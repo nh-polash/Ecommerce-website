@@ -8,6 +8,12 @@
     <!-- favicon is here -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
+    <!-- slick theme slider css link here -->
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <!-- slick slider css link here -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
     <!-- font awesome css linked here -->
     <link rel="stylesheet" href="assets/css/all.min.css">
 
@@ -76,7 +82,7 @@
             </div>
         </div>
 
-        <div class="header-bottom p-4">
+        <div class="header-bottom p-4 mb-3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -105,14 +111,15 @@
                         <div class="wish-cart-area d-flex justify-content-end">
 
                             <div class="login-btn me-4">
-                                <a href="#" class="btn btn-warning">Sign In</a>
-                                <a href="#" class="btn btn-info">Sign Up</a>
+                                <a href="#" class="btn btn-warning text-dark">
+                                    <span><i class="fa-solid fa-circle-user"></i></span>
+                                </a>
                             </div>
 
                             <div class="wish-list-button me-4">
-                                <button type="button" class="btn border-1 border-dark text-dark position-relative">
+                                <button type="button" class="btn btn-warning text-dark position-relative">
                                     <i class="fa-regular fa-heart"></i>
-                                    <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-warning">
+                                    <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-dark">
                                         0
                                     </span>
                                 </button>
@@ -120,9 +127,9 @@
     
                             <div class="cart-button">
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-danger position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <button type="button" class="btn btn-warning position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <i class="fa-solid fa-basket-shopping"></i>
-                                    <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-warning">
+                                    <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-dark">
                                       2
                                     </span>
                                 </button>
@@ -257,7 +264,7 @@
     <!-- main area start here -->
     <main>
         <!-- sidemenu & slider start here -->
-        <section class="sidemenu-silder">
+        <section class="sidemenu-silder mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -274,55 +281,39 @@
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
                                         <a class="nav-link active" href="#">Laptop
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                         <li class="nav-item">
                                         <a class="nav-link active" href="#">Desktop
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                         <li class="nav-item">
                                         <a class="nav-link" href="#">Mobile
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                         <li class="nav-item">
                                         <a class="nav-link" href="#">Watch
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                         <li class="nav-item">
                                         <a class="nav-link active" href="#">Cameras
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                         <li class="nav-item">
                                         <a class="nav-link" href="#">Headphone
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                         <li class="nav-item">
                                         <a class="nav-link" href="#">Accessories
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                         <li class="nav-item">
                                         <a class="nav-link" href="#">TV & Audio
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                        <a class="nav-link" href="#">Keyboard
-                                            <i class="fa-solid fa-angle-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#">Mouse
-                                            <i class="fa-solid fa-angle-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#">Drone
-                                            <i class="fa-solid fa-angle-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#">Router
-                                            <i class="fa-solid fa-angle-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#">CCTV $ Accessories
-                                            <i class="fa-solid fa-angle-right"></i></a>
+                                        <a class="nav-link" href="#">Keyboard & Mouse
+                                            <i class="fa-solid fa-angle-down"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -330,7 +321,54 @@
                         </div>
                     </div>
                     <div class="col-md-9">
-
+                        <div class="main-slider">
+                            <div class="slider">
+                                <div class="single-slider">
+                                    <div class="slider-content">
+                                        <h5 class="mb-3">Sale Offer <span class="text-danger">Black Friday</span> This Week</h5>
+                                        <h2 class="mb-3">Work Desk Surface Studio 2018</h2>
+                                        <h3 class="mb-3">Starting at <span class="text-danger">$1599.00</span></h3>
+                                        <a class="btn btn-warning" href="shop-left-sidebar.html">Shopping Now</a>
+                                    </div>
+                                    <div class="slider-img">
+                                        <img src="assets/img/slider/1.jpg" alt="slider" class="img-fluid w-100">
+                                    </div>
+                                </div>
+                                <div class="single-slider">
+                                    <div class="slider-content">
+                                        <h5 class="mb-3">Sale Offer <span class="text-danger">Black Friday</span> This Week</h5>
+                                        <h2 class="mb-3">Work Desk Surface Studio 2018</h2>
+                                        <h3 class="mb-3">Starting at <span class="text-danger">$1599.00</span></h3>
+                                        <a class="btn btn-warning" href="shop-left-sidebar.html">Shopping Now</a>
+                                    </div>
+                                    <div class="slider-img">
+                                        <img src="assets/img/slider/2.jpg" alt="slider" class="img-fluid w-100">
+                                    </div>
+                                </div>
+                                <div class="single-slider">
+                                    <div class="slider-content">
+                                        <h5 class="mb-3">Sale Offer <span class="text-danger">Black Friday</span> This Week</h5>
+                                        <h2 class="mb-3">Work Desk Surface Studio 2018</h2>
+                                        <h3 class="mb-3">Starting at <span class="text-danger">$1599.00</span></h3>
+                                        <a class="btn btn-warning" href="shop-left-sidebar.html">Shopping Now</a>
+                                    </div>
+                                    <div class="slider-img">
+                                        <img src="assets/img/slider/3.jpg" alt="slider" class="img-fluid w-100">
+                                    </div>
+                                </div>
+                                <div class="single-slider">
+                                    <div class="slider-content">
+                                        <h5 class="mb-3">Sale Offer <span class="text-danger">Black Friday</span> This Week</h5>
+                                        <h2 class="mb-3">Work Desk Surface Studio 2018</h2>
+                                        <h3 class="mb-3">Starting at <span class="text-danger">$1599.00</span></h3>
+                                        <a class="btn btn-warning" href="shop-left-sidebar.html">Shopping Now</a>
+                                    </div>
+                                    <div class="slider-img">
+                                        <img src="assets/img/slider/4.jpg" alt="slider" class="img-fluid w-100">
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -340,10 +378,17 @@
     <!-- main area end here -->
 
 
+    <!-- jquery js file linked here -->
+    <script src="assets/js/jquery-3.6.0.slim.min.js"></script>
+
     <!-- bootstrap js file linked here -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+    <!-- slick js file linked here -->
+    <script src="assets/js/slick.min.js"></script>
+
     <!-- main js file linked here -->
     <script src="assets/js/app.js"></script>
+
 </body>
 </html>

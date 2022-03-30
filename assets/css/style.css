@@ -98,6 +98,11 @@ header .header-top {
     border: none;
     box-shadow: none;
 }
+
+.header-bottom {
+    background-color: #F8F9F9;
+    border-top: 1px solid lightgray;
+}
 /* header area css is end here */
 
 
@@ -121,5 +126,61 @@ nav .offcanvas-header img {
 
 .sidenav-bar .card-body {
     border-radius: 0px 0px 5px 5px;
+    padding: 0px;
+}
+
+.sidenav-bar .nav .nav-item .nav-link {
+    color: #000;
+    border-bottom: 1px solid lightgray;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.sidenav-bar .nav .nav-item:hover .nav-link {
+    color: #FFC107;
+}
+
+.sidenav-bar .nav .nav-item .nav-link i {
+    float: right;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidenav-bar .nav .nav-item:hover .nav-link i {
+    transform: rotate(-90deg);
+}
+
+.main-slider .single-slider {
+    position: relative;
+
+}
+
+.main-slider .single-slider .slider-content {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 1;
+}
+
+.main-slider .single-slider .slider-img img {
+    height: 450px;
+}
+
+.main-slider .slick-next {
+    right: 0;
+    background: rgba(255, 193, 7, 0.623);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.main-slider .slick-prev {
+    left: 0;
+    z-index: 99;
+    background: rgba(255, 193, 7, 0.623);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
 }
 /* sidemenu and slider area end here */
