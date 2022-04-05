@@ -124,6 +124,10 @@ nav .offcanvas-header img {
     border-radius: 5px 5px 0px 0px;
 }
 
+.sidenav-bar button.btn.btn-warning:focus {
+    box-shadow: none;
+}
+
 .sidenav-bar .card-body {
     border-radius: 0px 0px 5px 5px;
     padding: 0px;
@@ -134,6 +138,10 @@ nav .offcanvas-header img {
     border-bottom: 1px solid lightgray;
     font-size: 17px;
     transition: all 0.3s ease;
+}
+
+.sidenav-bar .nav .nav-item .nav-link:last-of-type {
+    border-bottom: none;
 }
 
 .sidenav-bar .nav .nav-item:hover .nav-link {
@@ -156,9 +164,10 @@ nav .offcanvas-header img {
 
 .main-slider .single-slider .slider-content {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 5%;
     z-index: 1;
+    padding: 30px;
 }
 
 .main-slider .single-slider .slider-img img {
@@ -183,4 +192,94 @@ nav .offcanvas-header img {
     height: 40px;
     
 }
+
+
 /* sidemenu and slider area end here */
+
+.single-cate {
+    position: relative;
+}
+
+.single-cate a::before {
+    content: "";
+    position: absolute;
+    border: 2px solid transparent;
+    width: 90%;
+    height: 90%;
+    top: 11px;
+    left: 22px;
+    transition: all 0.3s ease;
+}
+
+.single-cate:hover a::before {
+    border: 2px solid #fff;
+}
+
+/* category area end here */
+
+
+.hot-deal-slider .card img {
+    margin: 0 auto;
+}
+
+.hot-deal-slider .card .product-review h6 {
+    font-size: 12px;
+    color: gray;
+    transition: all 0.5s ease;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.hot-deal-slider .card .product-review h6:hover {
+    color: #FFC37F;
+}
+
+.hot-deal-slider .card .product-review i {
+    font-size: 12px;
+}
+
+.hot-deal-slider .product-content h4 {
+    font-size: 14px;
+    color: #0363CD;
+    font-weight: 700;
+}
+
+.hot-deal-slider .product-content p {
+    color: red;
+}
+
+.hot-deal-slider .hot-deals-time li {
+    border: 2px solid #aaa;
+    padding: 5px;
+    margin: 0px 3px;
+    text-align: center;
+}
+
+.hot-deal-slider .hot-deals-time li p {
+    margin: 0;
+}
+
+.hot-deal-slider .hot-deals-time li p:first-child {
+    color: red;
+}
+
+.hot-deal-slider .hot-deals-time {
+    margin-bottom: 10px;
+}
+
+.hot-deal-slider .product-action-btn {
+    display: none;
+    transition: all 300ms ease 0s;
+    transform: translate(0px, 0px);
+}
+
+/* .hot-deal-slider .card:hover .product-action-btn {
+    display: block;
+    transform: translate(0, 0);
+} */
+
+.hot-deal-slider .card:hover {
+    box-shadow: 2px 2px 10px lightgray;
+}
+
+/* hot deals products end here */

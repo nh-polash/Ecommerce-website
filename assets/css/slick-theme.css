@@ -193,10 +193,12 @@
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #FFC107;
+    border-radius: 50%;
 
-    content: '•';
+    content: '';
     text-align: center;
 
     opacity: .25;
