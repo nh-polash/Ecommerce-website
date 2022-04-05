@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('.hot-deal-slider').slick({
         arrows: false,
         slidesToShow: 4,
-        slidesToScroll: 1,
         dots: true,
+        autoplay: true,
     });
 });
